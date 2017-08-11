@@ -1,0 +1,92 @@
+.dropbtn {
+    background-color: #00CD91;
+    color: #fff;
+    padding: 0px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+}
+
+/* Menu General Styles */
+.drop-down-menu a, .drop-down-menu a:hover{
+	color: #FFF;
+    font-size: 15px;
+    line-height: 60px;
+}
+.drop-down-menu,
+.drop-down-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.drop-down-menu li {
+	position: relative;
+    list-style: none;
+}
+.drop-down-menu a {
+	padding: 0 20px;
+	display: block;
+	text-decoration: none;
+}
+.drop-down-menu li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #00b37e;
+}
+
+
+/* Level 1 Drop Down Menu */
+.drop-down-menu > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -4px; /* solve the 4 pixels spacing between list-items */
+}
+.drop-down-menu > li:first-child {
+	margin-left: 0;
+}
+.drop-down-menu > li > a {}
+.drop-down-menu > li > a:hover {}
+
+
+/* Level 2 */
+.drop-down-menu > li > ul {
+	text-align: left;
+	width: 150px; /* change auto value with 200px if you want a bigger menu */
+	display: none;
+	background: #00b37e;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999999; /* if you have YouTube iframes, is good to have a bigger z-index so the video can appear above the video */
+}
+.drop-down-menu > li > ul > li:hover{
+    background: #00996b;
+}
+.drop-down-menu > li:hover > ul {
+	display: block;
+}
+.drop-down-menu ul li a {}
+.drop-down-menu ul li a:hover {}
+
+
+/* Level 3 */
+.drop-down-menu > li > ul > li > ul {
+	text-align: left;
+	display: none;
+    width: 180px;
+	background: #00996b;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 9999999;
+}
+.drop-down-menu > li > ul > li > ul > li:hover{
+    background: #00805a;
+}
+.drop-down-menu > li > ul > li:hover > ul {
+	display: block;
+}
+.drop-down-menu ul ul li {}
+.drop-down-menu ul ul li a {}
+.drop-down-menu ul ul li a:hover {}

@@ -1,0 +1,9 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+    <h2>Post Status</h2>
+    <ul>
+        {% for post in posts %}
+            <li>{{ post.title }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

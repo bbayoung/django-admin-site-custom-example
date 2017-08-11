@@ -1,0 +1,45 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+{% block extrastyle %}
+    <link rel="stylesheet" type="text/css" href="{% static "admin/css/dropdown.css" %}" />
+    <link rel="stylesheet" type="text/css" href="{% static "admin/css/custom.css" %}" />
+{% endblock %}
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('Django administration') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}
+    <div id="gnb">
+        <div id="gnb-app-list">
+            <ul class="drop-down-menu">
+                {% for menu in gnb_menus %}
+                    <li>
+                        <a {% if menu.url %}href="{{ menu.url }}"{% endif %}>{{ menu.name }}</a>
+                        <ul>
+                            {% for sub_menu in menu.sub_menus %}
+                                <li><a href="{{ sub_menu.url }}">{{ sub_menu.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endfor %}
+                {% if gnb_apps %}
+                    <li><a>전체 앱</a>
+                        <ul>
+                            {% for app in gnb_apps %}
+                                <li><a href="/admin/{{ app.app_url }}">{{ app.name }}</a>
+                                    <ul>
+                                        {% for model in app.models %}
+                                            <li><a href="{{ model.admin_url }}">{{ model.name }}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}

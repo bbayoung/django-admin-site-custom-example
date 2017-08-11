@@ -1,0 +1,189 @@
+[
+{
+    "model": "post.post",
+    "pk": 1,
+    "fields": {
+        "member": 30,
+        "category": 1,
+        "title": "IT \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (1)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:35.733Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 2,
+    "fields": {
+        "member": 22,
+        "category": 1,
+        "title": "IT \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (2)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 3,
+    "fields": {
+        "member": 22,
+        "category": 1,
+        "title": "IT \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (3)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 4,
+    "fields": {
+        "member": 22,
+        "category": 1,
+        "title": "IT \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (4)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 5,
+    "fields": {
+        "member": 29,
+        "category": 4,
+        "title": "POLITICS \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (1)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 6,
+    "fields": {
+        "member": 29,
+        "category": 4,
+        "title": "POLITICS \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (2)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 7,
+    "fields": {
+        "member": 29,
+        "category": 4,
+        "title": "POLITICS \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (3)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 8,
+    "fields": {
+        "member": 29,
+        "category": 2,
+        "title": "GENDER \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (1)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 9,
+    "fields": {
+        "member": 30,
+        "category": 2,
+        "title": "GENDER \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (2)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 10,
+    "fields": {
+        "member": 28,
+        "category": 2,
+        "title": "GENDER \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (3)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 11,
+    "fields": {
+        "member": 26,
+        "category": 2,
+        "title": "GENDER \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (4)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 12,
+    "fields": {
+        "member": 27,
+        "category": 3,
+        "title": "SOCIAL \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (1)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 13,
+    "fields": {
+        "member": 27,
+        "category": 3,
+        "title": "SOCIAL \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (2)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 14,
+    "fields": {
+        "member": 27,
+        "category": 3,
+        "title": "SOCIAL \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (3)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 15,
+    "fields": {
+        "member": 27,
+        "category": 3,
+        "title": "SOCIAL \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (4)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 16,
+    "fields": {
+        "member": 27,
+        "category": 3,
+        "title": "SOCIAL \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (5)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+},
+{
+    "model": "post.post",
+    "pk": 17,
+    "fields": {
+        "member": 27,
+        "category": 3,
+        "title": "SOCIAL \uce74\ud14c\uace0\ub9ac\uc758 \uac8c\uc2dc\uae00 (6)",
+        "content": "\ub0b4\uc6a9",
+        "created_at": "2017-08-06T12:20:48.477Z"
+    }
+}
+]

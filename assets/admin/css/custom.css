@@ -1,0 +1,71 @@
+body{
+    color: #5e5e5e;
+    background: #edecec;
+}
+
+ul li {
+    padding: 0;
+}
+
+#header{
+    background: #00CD91;
+    height: 60px;
+    padding: 0 40px;
+    line-height: 60px;
+}
+
+div.breadcrumbs, .module h2, .module caption, .inline-group h2 {
+    background: #00e19f;
+}
+
+div.breadcrumbs{
+    color: #fff;
+}
+
+#changelist-filter h2{
+    padding: 14px 15px;
+}
+
+a:link, a:visited {
+    color: #555;
+}
+
+a:hover {
+    color: #000;
+}
+
+#user-tools a:focus, #user-tools a:hover, div.breadcrumbs a:hover, div.breadcrumbs a:focus {
+    color: #00fdb3;
+}
+
+.module {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+#content-related {
+    background: transparent;
+}
+#content-related .module {
+    background: #fff;
+}
+#content-related .actionlist {
+    padding: 15px;
+    margin: 0;
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+    color: #FFF;
+}
+
+#gnb {
+    float: left;
+    color: #fff;
+    margin-left: 50px;
+    z-index: 999999;
+}
+#gnb > #gnb-app-list {
+    position: absolute;
+    z-index: 999999;
+}

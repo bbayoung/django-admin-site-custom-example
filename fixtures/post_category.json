@@ -1,0 +1,30 @@
+[
+{
+    "model": "post.category",
+    "pk": 1,
+    "fields": {
+        "name": "IT"
+    }
+},
+{
+    "model": "post.category",
+    "pk": 2,
+    "fields": {
+        "name": "GENDER"
+    }
+},
+{
+    "model": "post.category",
+    "pk": 3,
+    "fields": {
+        "name": "SOCIAL"
+    }
+},
+{
+    "model": "post.category",
+    "pk": 4,
+    "fields": {
+        "name": "POLITICS"
+    }
+}
+]
